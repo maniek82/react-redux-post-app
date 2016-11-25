@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js ",
-    "postinstall": "webpack -p",
+    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress",
     "start": "node server.js"
   },
   "author": "",
