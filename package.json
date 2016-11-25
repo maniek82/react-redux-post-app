@@ -8,8 +8,8 @@
     "node": "6.9.1"
   },
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js ",
-    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p",
     "start": "node server.js"
   },
   "author": "",
